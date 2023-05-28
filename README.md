@@ -2,4 +2,4 @@
 Aplikacija za organizaciju izleta Katarina Kozić  
 Fakultet informatike u Puli (https://github.com/kkozic29/izlet) 
 Kolegij: Programsko inženjerstvo (ntankovic.unipu.hr/pi)
-Mentor: doc. dr. sc. Nikola Tanković (ntankovic.unipu.hr)
+Mentor: doc. dr. sc. Nikola Tanković (https://ntankovic.unipu.hr)
