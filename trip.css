@@ -1,0 +1,48 @@
+.trip {
+  height: calc(100vh - 44px);
+  margin-top: 44px;
+}
+
+.trip .trip-container {
+  padding: 40px 0px;
+}
+
+.trip .trip-container table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.trip .trip-container td, .trip .trip-container th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.trip .trip-container tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.trip .trip-container .title {
+  margin-bottom: 20px;
+}
+
+.trip .trip-container .title.activities {
+  margin-bottom: 5px;
+}
+
+.trip .trip-container .description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.trip .trip-container .description.activities {
+  display: inline;
+}
+
+@media screen and (min-width: 768px) {
+  .trip {
+    height: calc(100vh - 64px);
+    margin-top: 64px;
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,MAAM,EAAE,kBAAkB;EAC1B,UAAU,EAAE,MAAM;CAMrB;;AARD,AAII,cAJU,CAIV,wBAAwB,CAAC;EACrB,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,IAAI;CACf;;AAGL,MAAM,CAAE,MAAM,MAAM,SAAS,EAAE,KAAK;EAChC,AAAA,cAAc,CAAC;IACP,MAAM,EAAE,kBAAkB;IAC1B,UAAU,EAAE,IAAI;GACvB",
+    "sources": [
+        "create-agency.scss"
+    ],
+    "names": [],
+    "file": "create-agency.css"
+}

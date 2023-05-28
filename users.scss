@@ -1,0 +1,55 @@
+.users {
+    height: calc(100vh - 44px);
+    margin-top: 44px;
+
+    .users-container {
+        padding: 40px 0px;
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+              }
+              
+              tr:nth-child(even) {
+                background-color: #dddddd;
+              }
+          }
+
+        .title {
+            margin-bottom: 20px;
+            
+            &.activities {
+                margin-bottom: 5px;
+            }
+        }
+        .description {
+            font-size: 16px;
+            line-height: 22px;
+
+            &.activities {
+                display: inline;
+            }
+        }
+    }
+}
+
+@media  screen and (min-width: 768px) { 
+    .users {            
+            height: calc(100vh - 64px);
+            margin-top: 64px;
+    }
+}
+
+
+
+
+
+
+
+

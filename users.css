@@ -1,0 +1,48 @@
+.users {
+  height: calc(100vh - 44px);
+  margin-top: 44px;
+}
+
+.users .users-container {
+  padding: 40px 0px;
+}
+
+.users .users-container table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.users .users-container table td, .users .users-container table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.users .users-container table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.users .users-container .title {
+  margin-bottom: 20px;
+}
+
+.users .users-container .title.activities {
+  margin-bottom: 5px;
+}
+
+.users .users-container .description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.users .users-container .description.activities {
+  display: inline;
+}
+
+@media screen and (min-width: 768px) {
+  .users {
+    height: calc(100vh - 64px);
+    margin-top: 64px;
+  }
+}

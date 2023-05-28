@@ -1,0 +1,3 @@
+DROP USER IF EXISTS 'iwa_2018'@'localhost';
+DROP USER IF EXISTS iwa_2018;
+DROP SCHEMA IF EXISTS `iwa_2018_kz_projekt`;

@@ -1,0 +1,32 @@
+.edit-user {
+  height: calc(100vh - 44px);
+  margin-top: 44px;
+}
+
+.edit-user .edit-user-container {
+  padding: 40px 0px;
+}
+
+.edit-user .edit-user-container .title {
+  margin-bottom: 20px;
+}
+
+.edit-user .edit-user-container .title.activities {
+  margin-bottom: 5px;
+}
+
+.edit-user .edit-user-container .description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.edit-user .edit-user-container .description.activities {
+  display: inline;
+}
+
+@media screen and (min-width: 768px) {
+  .user {
+    height: calc(100vh - 64px);
+    margin-top: 64px;
+  }
+}

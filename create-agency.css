@@ -1,0 +1,16 @@
+.create-agency {
+  height: calc(100vh - 44px);
+  margin-top: 4.4rem;
+}
+
+.create-agency .create-agency-container {
+  padding: 40px 0px;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .create-agency {
+    height: calc(100vh - 64px);
+    margin-top: 64px;
+  }
+}

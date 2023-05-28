@@ -1,0 +1,62 @@
+.table {
+    height: calc(100vh - 44px);
+    margin-top: 44px;
+
+    .table-container {
+        padding: 40px 0px;
+        height: 100%;
+
+        .title {
+            margin-bottom: 15px;
+        }
+
+        .table-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0px;
+            border-bottom: 2px solid #004652;
+            
+            a {
+                font-size: 22px;
+                line-height: 26px;
+                font-weight: 700;
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+
+                &.edit {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .create-agency {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0px;
+            a {
+                color: #fff;
+                font-weight: 700;
+                padding: 10px 25px;
+                background: #e49100;
+                border-radius: 20px;
+            }
+        }
+    }
+
+}
+
+@media  screen and (min-width: 768px) { 
+    .table {            
+            height: calc(100vh - 64px);
+            margin-top: 64px;
+    }
+}
+
+
+
+
+
+
+
+
